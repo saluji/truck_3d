@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: BluePlastic
-  m_Shader: {fileID: -6465566751694194690, guid: 8e0df6f47cbe05e46b36d44ff136c7fc, type: 3}
+  m_Shader: {fileID: -6465566751694194690, guid: 01338635ad620cf42938c959aff67b60, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -73,7 +73,6 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - Vector1_91a8e2885ac042d1bdcb42992749dbd9: 0.929
     - _AlphaClip: 0
     - _Blend: 0
     - _BumpScale: 1
@@ -86,8 +85,8 @@ Material:
     - _Glossiness: 0
     - _GlossyReflections: 0
     - _Metallic: 0
-    - _NoiseScale: 64
-    - _NormalStrength: 0.77
+    - _NoiseScale: 54
+    - _NormalStrength: 0.05
     - _OcclusionStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
