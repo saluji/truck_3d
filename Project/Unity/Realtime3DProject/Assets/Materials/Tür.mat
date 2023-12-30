@@ -21,7 +21,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: "T\xFCr"
-  m_Shader: {fileID: -6465566751694194690, guid: b9dcb23328de2b648a08393a36be4092,
+  m_Shader: {fileID: -6465566751694194690, guid: 8ad9418df2ea2d440b1aa76e509a3105,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -125,7 +125,7 @@ Material:
     - _QueueControl: 0
     - _QueueOffset: 0
     - _ReceiveShadows: 1
-    - _Smoothness: 0.5
+    - _Smoothness: 0.9
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
@@ -134,7 +134,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Base: {r: 0.754717, g: 0.754717, b: 0.754717, a: 0}
+    - _Base: {r: 0.8018868, g: 0.8018868, b: 0.8018868, a: 0}
     - _BaseColor: {r: 0, g: 0.26651955, b: 1, a: 1}
     - _Color: {r: 0, g: 0.26651952, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
