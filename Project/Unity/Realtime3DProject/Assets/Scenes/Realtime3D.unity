@@ -33,7 +33,7 @@ RenderSettings:
   m_HaloTexture: {fileID: 0}
   m_SpotCookie: {fileID: 10001, guid: 0000000000000000e000000000000000, type: 0}
   m_DefaultReflectionMode: 0
-  m_DefaultReflectionResolution: 128
+  m_DefaultReflectionResolution: 512
   m_ReflectionBounces: 1
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
@@ -595,17 +595,17 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e119f507594222f4faf45985d978cbd3, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     - target: {fileID: -7461693291982033411, guid: d3ecae6b243a6b049abca0d996897e26,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 2d1093c8d5ce30a44b6323cdd3e9414a, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     - target: {fileID: -6308879936570137681, guid: d3ecae6b243a6b049abca0d996897e26,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 450541b53bad0fd41ba571ffdbd6c0a2, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     - target: {fileID: -3203889588539218625, guid: d3ecae6b243a6b049abca0d996897e26,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
@@ -615,7 +615,7 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: ba74f2a299b80d94c9ba32a0e4cc38af, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     - target: {fileID: 919132149155446097, guid: d3ecae6b243a6b049abca0d996897e26,
         type: 3}
       propertyPath: m_Name
@@ -630,12 +630,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: e119f507594222f4faf45985d978cbd3, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     - target: {fileID: 9174551678220411731, guid: d3ecae6b243a6b049abca0d996897e26,
         type: 3}
       propertyPath: m_Materials.Array.data[0]
       value: 
-      objectReference: {fileID: 2100000, guid: 450541b53bad0fd41ba571ffdbd6c0a2, type: 2}
+      objectReference: {fileID: 2100000, guid: d3a687fb6273fd9408a0df03affca6b3, type: 2}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
