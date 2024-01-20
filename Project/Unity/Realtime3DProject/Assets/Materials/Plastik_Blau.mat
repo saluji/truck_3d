@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Rot
+  m_Name: Plastik_Blau
   m_Shader: {fileID: -6465566751694194690, guid: b9dcb23328de2b648a08393a36be4092,
     type: 3}
   m_Parent: {fileID: 0}
@@ -154,7 +154,7 @@ Material:
     - _WorkflowMode: 1
     - _ZWrite: 1
     m_Colors:
-    - _Base: {r: 0.6901961, g: 0.20055908, b: 0.14509803, a: 0}
+    - _Base: {r: 0.14618193, g: 0.14618193, b: 0.6886792, a: 0}
     - _BaseColor: {r: 0, g: 0.26651955, b: 1, a: 1}
     - _Color: {r: 0, g: 0.26651952, b: 1, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

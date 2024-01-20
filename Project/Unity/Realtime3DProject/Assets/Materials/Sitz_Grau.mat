@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Sitz
+  m_Name: Sitz_Grau
   m_Shader: {fileID: -6465566751694194690, guid: 671af653ed3a438439ae7f374be1143d,
     type: 3}
   m_Parent: {fileID: 0}
