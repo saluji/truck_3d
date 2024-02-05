@@ -134,6 +134,8 @@ GameObject:
   m_Component:
   - component: {fileID: 13380361}
   - component: {fileID: 13380362}
+  - component: {fileID: 13380364}
+  - component: {fileID: 13380363}
   m_Layer: 0
   m_Name: Auswahl_Seite
   m_TagString: Untagged
@@ -170,6 +172,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &13380363
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13380360}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &13380364
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 13380360}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &19589840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1095,6 +1130,8 @@ GameObject:
   - component: {fileID: 111395500}
   - component: {fileID: 111395501}
   - component: {fileID: 111395504}
+  - component: {fileID: 111395506}
+  - component: {fileID: 111395505}
   m_Layer: 5
   m_Name: Farbe_Sitz
   m_TagString: Untagged
@@ -1213,6 +1250,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &111395505
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111395498}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &111395506
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 111395498}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &135024713
 GameObject:
   m_ObjectHideFlags: 0
@@ -7089,6 +7159,8 @@ GameObject:
   - component: {fileID: 859791470}
   - component: {fileID: 859791471}
   - component: {fileID: 859791474}
+  - component: {fileID: 859791476}
+  - component: {fileID: 859791475}
   m_Layer: 5
   m_Name: Auswahl_Hinterlicht
   m_TagString: Untagged
@@ -7206,6 +7278,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &859791475
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859791468}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &859791476
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 859791468}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &878295818
 GameObject:
   m_ObjectHideFlags: 0
@@ -11892,6 +11997,8 @@ GameObject:
   - component: {fileID: 1428903388}
   - component: {fileID: 1428903389}
   - component: {fileID: 1428903392}
+  - component: {fileID: 1428903394}
+  - component: {fileID: 1428903393}
   m_Layer: 5
   m_Name: Auswahl_Dachaufbau
   m_TagString: Untagged
@@ -12014,6 +12121,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1428903393
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428903386}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &1428903394
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1428903386}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1433773423
 GameObject:
   m_ObjectHideFlags: 0
@@ -12790,6 +12930,8 @@ GameObject:
   m_Component:
   - component: {fileID: 1578071105}
   - component: {fileID: 1578071106}
+  - component: {fileID: 1578071108}
+  - component: {fileID: 1578071107}
   m_Layer: 0
   m_Name: Auswahl_Vorne
   m_TagString: Untagged
@@ -12826,6 +12968,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &1578071107
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578071104}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &1578071108
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1578071104}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &1587153499
 GameObject:
   m_ObjectHideFlags: 0
@@ -16964,6 +17139,8 @@ GameObject:
   - component: {fileID: 2087180040}
   - component: {fileID: 2087180041}
   - component: {fileID: 2087180044}
+  - component: {fileID: 2087180046}
+  - component: {fileID: 2087180045}
   m_Layer: 5
   m_Name: Auswahl_Reifen
   m_TagString: Untagged
@@ -17082,6 +17259,39 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b4284830ed6d0d42b1cf5df255e06b2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!95 &2087180045
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087180038}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: fe771fa256632e64fa32a5747cae7a14, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
+--- !u!225 &2087180046
+CanvasGroup:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2087180038}
+  m_Enabled: 1
+  m_Alpha: 1
+  m_Interactable: 1
+  m_BlocksRaycasts: 1
+  m_IgnoreParentGroups: 0
 --- !u!1 &2087894730
 GameObject:
   m_ObjectHideFlags: 0
